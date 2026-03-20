@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You — Tractor Trav Worldwide</title>
+  <style>
+    :root {
+      --green-dark: #17351f;
+      --green: #2f5d3a;
+      --gold: #d4a84f;
+      --cream: #f7f3eb;
+      --rust: #b85c38;
+      --white: #ffffff;
+      --text: #1f2522;
+      --radius: 18px;
+      --shadow: 0 16px 40px rgba(0,0,0,0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, var(--cream), #fdfcf9);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+
+    .card {
+      background: var(--white);
+      max-width: 640px;
+      width: 100%;
+      padding: 2.5rem 2rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      text-align: center;
+      border-top: 6px solid var(--gold);
+    }
+
+    h1 {
+      margin-top: 0;
+      font-size: 2.2rem;
+      color: var(--green-dark);
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin: 1rem 0;
+    }
+
+    .highlight {
+      background: #efe4d1;
+      border-left: 5px solid var(--gold);
+      padding: 1rem;
+      border-radius: 12px;
+      margin: 1.5rem 0;
+      font-weight: bold;
+    }
+
+    .buttons {
+      margin-top: 1.8rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.9rem;
+      justify-content: center;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.95rem 1.4rem;
+      border-radius: 999px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    .btn:hover { transform: translateY(-2px); opacity: 0.95; }
+
+    .btn-primary {
+      background: var(--green);
+      color: var(--white);
+    }
+
+    .btn-secondary {
+      background: var(--rust);
+      color: var(--white);
+    }
+
+    footer {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      color: #5c6762;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Thank You!</h1>
+
+    <p>Your message has been successfully sent to Tractor Trav Worldwide.</p>
+
+    <div class="highlight">
+      We will contact you as soon as possible.
+    </div>
+
+    <p>
+      If your request is urgent, please call directly for the fastest service.
+    </p>
+
+    <div class="buttons">
+      <a class="btn btn-primary" href="index.html">Return to Home</a>
+      <a class="btn btn-secondary" href="tel:19185107880">Call 918‑510‑7880</a>
+    </div>
+
+    <footer>
+      Tractor Trav Worldwide — Mobile Welding, Fabrication & Equipment Services
+    </footer>
+  </div>
+</body>
+</html>
